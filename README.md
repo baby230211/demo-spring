@@ -18,7 +18,7 @@ docker compose up -d
 Run the Spring Boot app locally:
 
 ```bash
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 The application uses the database configured in [`src/main/resources/application.yml`](src/main/resources/application.yml):
@@ -34,7 +34,7 @@ The application uses the database configured in [`src/main/resources/application
 Run tests:
 
 ```bash
-./mvnw test
+mvn test
 ```
 
 Stop the database:
